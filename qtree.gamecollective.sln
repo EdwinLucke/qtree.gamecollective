@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.gamecollective.blazor", "qtree.gamecollective.blazor\qtree.gamecollective.blazor\qtree.gamecollective.blazor.csproj", "{DD40558B-01A9-4F86-898A-492AAB4539F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qtree.gamecollective.blazor.Client", "qtree.gamecollective.blazor\qtree.gamecollective.blazor.Client\qtree.gamecollective.blazor.Client.csproj", "{E81F7CFD-E506-4D9B-962D-5845C62A105E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD40558B-01A9-4F86-898A-492AAB4539F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD40558B-01A9-4F86-898A-492AAB4539F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD40558B-01A9-4F86-898A-492AAB4539F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD40558B-01A9-4F86-898A-492AAB4539F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E81F7CFD-E506-4D9B-962D-5845C62A105E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E81F7CFD-E506-4D9B-962D-5845C62A105E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E81F7CFD-E506-4D9B-962D-5845C62A105E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E81F7CFD-E506-4D9B-962D-5845C62A105E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2486529D-4A36-4918-A8B6-483A964B598F}
+	EndGlobalSection
+EndGlobal
