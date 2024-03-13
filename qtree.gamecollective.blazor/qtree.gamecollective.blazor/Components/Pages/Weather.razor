@@ -1,4 +1,5 @@
 ﻿@page "/weather"
+@inject ILogger<Weather> Logger
 @attribute [StreamRendering]
 
 <PageTitle>Weather</PageTitle>
@@ -41,6 +42,12 @@ else
 
     protected override async Task OnInitializedAsync()
     {
+        Logger.LogCritical($"Critical logger");
+        Logger.LogDebug($"Debug logger");
+        Logger.LogError($"Error logger");
+        Logger.LogWarning($"Warning logger");
+        Logger.LogTrace($"Trace logger");        
+        Logger.LogInformation($"Information logger");
         // Simulate asynchronous loading to demonstrate streaming rendering
         await Task.Delay(500);
 

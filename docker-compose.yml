@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  qtree.gamecollective.blazor:
+    image: ${DOCKER_REGISTRY-}qtreegamecollectiveblazor
+    build:
+      context: .
+      dockerfile: qtree.gamecollective.blazor/qtree.gamecollective.blazor/Dockerfile
